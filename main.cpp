@@ -15,8 +15,38 @@ void menu(){
 
 int main() {
     int array[SIZE] = {1,2,3,4,5,6,7,8,9,10};
+    int choice = 0;
+    while(choice != 7){
+        menu();
+        scanf("%d", &choice);
+        switch (choice) {
+            case 1:
 
-    menu();
+                break;
+            case 2:
+                printArray(array);
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+
+                break;
+            default:
+                printf("Select the correct option!!! \n");
+                break;
+        }
+    }
+
 
     return 0;
 }
