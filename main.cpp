@@ -21,7 +21,7 @@ int main() {
         scanf("%d", &choice);
         switch (choice) {
             case 1:
-
+                inputValues(array);
                 break;
             case 2:
                 printArray(array);
@@ -39,7 +39,7 @@ int main() {
 
                 break;
             case 7:
-
+                printf("Program ended!!!\n");
                 break;
             default:
                 printf("Select the correct option!!! \n");

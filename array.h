@@ -3,7 +3,7 @@
 #define ARRAY_ARRAY_H
 
 void printArray(int *array);
-
+void inputValues(int *array);
 
 
 #endif //ARRAY_ARRAY_H
