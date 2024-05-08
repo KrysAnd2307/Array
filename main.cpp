@@ -36,9 +36,11 @@ int main() {
                 printf("Min = %d\n", min);
                 break;
             }
-            case 5:
-
+            case 5: {
+                float average = calcAverage(array);
+                printf("Average Value = %f\n", average);
                 break;
+            }
             case 6:
 
                 break;

@@ -32,3 +32,11 @@ int findMaxValue(int *array){
     }
     return max;
 }
+int calcAverage(int *array){
+    int sum = 0;
+    for(int i = 0; i < SIZE; ++i){
+        sum += *(array + i);
+    }
+    float average = (float) sum / SIZE;
+    return average;
+}
