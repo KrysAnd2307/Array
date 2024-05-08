@@ -7,5 +7,6 @@ void inputValues(int *array);
 int findMinValue(int *array);
 int findMaxValue(int *array);
 int calcAverage(int *array);
+void displayResults(int min, int max, float average);
 
 #endif //ARRAY_ARRAY_H

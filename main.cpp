@@ -41,9 +41,13 @@ int main() {
                 printf("Average Value = %f\n", average);
                 break;
             }
-            case 6:
-
+            case 6: {
+                int max = findMaxValue(array);
+                int min = findMinValue(array);
+                int average = calcAverage(array);
+                displayResults(max, min, average);
                 break;
+            }
             case 7:
                 printf("Program ended!!!\n");
                 break;

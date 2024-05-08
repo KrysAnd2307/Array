@@ -40,3 +40,9 @@ int calcAverage(int *array){
     float average = (float) sum / SIZE;
     return average;
 }
+void displayResults(int min, int max, float average){
+    printf("Simple Array...\n");
+    printf("Max value = %d\n", max);
+    printf("Min value = %d\n", min);
+    printf("Average = %f\n", average);
+}
