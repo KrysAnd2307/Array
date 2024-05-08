@@ -4,6 +4,8 @@
 
 void printArray(int *array);
 void inputValues(int *array);
+int findMinValue(int *array);
+int findMaxValue(int *array);
 
 
 #endif //ARRAY_ARRAY_H

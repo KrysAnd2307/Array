@@ -26,12 +26,16 @@ int main() {
             case 2:
                 printArray(array);
                 break;
-            case 3:
-
+            case 3: {
+                int max = findMaxValue(array);
+                printf("Max = %d\n", max);
                 break;
-            case 4:
-
+            }
+            case 4: {
+                int min = findMinValue(array);
+                printf("Min = %d\n", min);
                 break;
+            }
             case 5:
 
                 break;
